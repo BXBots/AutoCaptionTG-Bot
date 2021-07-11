@@ -22,7 +22,7 @@ start_button=InlineKeyboardMarkup(
                   InlineKeyboardButton("🤖 Update Channel", url = "https://t.me/BX_Botz"),
                   InlineKeyboardButton("👥Support Group", url = "https://t.me/BxSupport")
                   ],[
-                  InlineKeyboardButton("🔰About", callback_data = "about_data'),
+                  InlineKeyboardButton("🔰About", callback_data = "about_data"),
                   InlineKeyboardButton("⚙️Help", callback_data = "help_data")
               ] 
         ]
