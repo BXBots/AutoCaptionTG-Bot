@@ -19,15 +19,11 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQ
 start_button=InlineKeyboardMarkup(
         [
               [
-                  InlineKeyboardButton("🤖 Bot Status", callback_data = "status_data")
-              ], 
-              [
-                  InlineKeyboardButton("📫 Updates", url = "https://t.me/BX_Botz"), 
-                  InlineKeyboardButton("About 🔰", callback_data = "about_data")
-              ], 
-              [
-                  InlineKeyboardButton("💡 HELP", callback_data = "help_data"), 
-                  InlineKeyboardButton("🔐 CLOSE", callback_data = "close_data")
+                  InlineKeyboardButton("🤖 Update Channel", url = "https://t.me/BX_Botz"),
+                  InlineKeyboardButton("👥Support Group", url = "https://t.me/BxSupport")
+                  ],[
+                  InlineKeyboardButton("🔰About", callback_data = "about_data'),
+                  InlineKeyboardButton("⚙️Help", callback_data = "help_data")
               ] 
         ]
 )
@@ -40,8 +36,8 @@ help_button=InlineKeyboardMarkup(
                 InlineKeyboardButton("ABOUT MARKDOWN", callback_data = "markdown_data")
               ], 
               [
-                  InlineKeyboardButton("⬇️ BACK", callback_data = "back_data"), 
-                  InlineKeyboardButton("🔐 CLOSE", callback_data = "close_data")
+                  InlineKeyboardButton("🔙Back", callback_data = "back_data"), 
+                  InlineKeyboardButton("🔐Close", callback_data = "close_data")
               ]
         ]
 )
@@ -51,8 +47,8 @@ help_button=InlineKeyboardMarkup(
 about_button=InlineKeyboardMarkup(
         [
               [
-                  InlineKeyboardButton("⬇️ BACK", callback_data = "back_data"), 
-                  InlineKeyboardButton("🔐 CLOSE", callback_data = "close_data")
+                  InlineKeyboardButton("🔙Back", callback_data = "back_data"), 
+                  InlineKeyboardButton("🔐Close", callback_data = "close_data")
               ]
         ]
 ) 
@@ -125,8 +121,8 @@ async def button(bot, cmd: CallbackQuery):
              reply_markup=InlineKeyboardMarkup(
                  [
                      [
-                      InlineKeyboardButton("⬇️ BACK", callback_data="back_data"),
-                      InlineKeyboardButton("🔐 CLOSE", callback_data="close_data")
+                      InlineKeyboardButton("🔙Back", callback_data="back_data"),
+                      InlineKeyboardButton("🔐Close", callback_data="close_data")
                      ]
  
                  ] 
@@ -143,8 +139,8 @@ async def button(bot, cmd: CallbackQuery):
                         InlineKeyboardButton("ABOUT MARKDOWN", callback_data = "markdown_data")
                        ],
                        [
-                        InlineKeyboardButton("⬇️ BACK", callback_data="back_data"),
-                        InlineKeyboardButton("🔐 CLOSE", callback_data="close_data")
+                        InlineKeyboardButton("🔙Back", callback_data="back_data"),
+                        InlineKeyboardButton("🔐Close", callback_data="close_data")
                        ]
  
                    ] 
@@ -159,15 +155,16 @@ async def button(bot, cmd: CallbackQuery):
                    [
                       
                        [
-                        InlineKeyboardButton("🤖 Bot Status", callback_data = "status_data")
+                        InlineKeyboardButton("🤖 Update Channel", url = "https://telegram.me/BX_Botz"),
+                        InlineKeyboardButton("👥Support Group", url = "https://telegram.me/BxSupport")
                        ], 
                        [
-                        InlineKeyboardButton("📫 Updates", url="https://t.me/BX_Botz"),
-                        InlineKeyboardButton("About Me 🔰", callback_data="about_data")
+                        InlineKeyboardButton("⚜️Bot Status", callback_data = "status_data"),
+                        InlineKeyboardButton("🔰About", callback_data="about_data")
                        ],
                        [
-                        InlineKeyboardButton("💡 HELP", callback_data="help_data"),
-                        InlineKeyboardButton("🔐 CLOSE", callback_data="close_data")
+                        InlineKeyboardButton("⚙️Help", callback_data="help_data"),
+                        InlineKeyboardButton("🔐Close", callback_data="close_data")
                        ]
                    ]
                )
