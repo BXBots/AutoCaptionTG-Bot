@@ -5,12 +5,9 @@ class Translation(object):
 
 😃 Hai {},
 
-I am a simple auto caption bot
-I can automatically add pre-setted caption to the files in channels
+`I am a simple auto caption bot`.`I can automatically add pre-setted caption to the files in channels`
 
-I am currently working for a channel if you want to use me, Use my source code and Deploy me
-
-⚜️ Maintained By 👉 @{}
+👲 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : [ʙx ʙᴏᴛᴢ](https://t.me/BX_Botz)
 """    
 
       HELP_TEXT = """
@@ -48,7 +45,7 @@ I am currently working for a channel if you want to use me, Use my source code a
 
 ○ ᴠᴇʀsɪᴏɴ : 1.1.0
 
-○ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ  : [ᴛᴏᴜᴄʜ ᴍᴇ 🤗](https://github.com/MufazTG/AutoCaptionTG-Bot)
+○ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ  : [ᴛᴏᴜᴄʜ ᴍᴇ 🤗](https://t.me/nokiyirunnoippokitum)
 
 ○ ᴄʀᴇᴀᴛᴏʀ :  [ʙx ʙᴏᴛᴢ](https://t.me/BX_Botz)
  
